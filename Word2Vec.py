@@ -76,7 +76,7 @@ def getMatrixLabelnlp(positive_position_file_name, window_size=51, empty_aa = '*
 
     return rawseq,length
 
-train_file_name = 'NLP.csv'  # Training dataset
+train_file_name = 'your file.csv'
 win1 = 50
 
 nlp, lengthnlp = getMatrixLabelnlp(train_file_name, win1)
